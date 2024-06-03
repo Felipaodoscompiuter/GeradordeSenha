@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
 
 :root { 
     --cor-da-letra:#ff1100;
@@ -6,10 +8,20 @@
     --fundo-senha: #ff6600;
     --fundo-texto: #a6ff00;
     --borda: #000000;
+    --fonte:"Josefin Sans","sans-serif";
+    --fonte2:"Bungee Spice","sans-serif";
 }
 
 body {
-    color: var(--cor-da-letra)
+    color: var(--cor-da-letra);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+
 
 }
 
+.titulo-principal {
+    font-size: 50px;
+    font-family: var(--fonte2);
+
+}
