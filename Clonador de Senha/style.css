@@ -3,7 +3,7 @@
 
 
 :root { 
-    --cor-da-letra:#ff1100;
+    --cor-da-letra:#006eff;
     --cor-de-fundo: #fbff00;
     --fundo-senha: #ff6600;
     --fundo-texto: #a6ff00;
@@ -20,8 +20,47 @@ body {
 
 }
 
+.img{
+
+    width: 50px;
+
+}
+
+.conteudo{
+
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.conteudo-senha {
+    margin-top: 60px;
+    background-color: var(--fundo-senha);
+    padding: 40px;
+    border-bottom:5px solid var(--borda);
+}
+    
 .titulo-principal {
     font-size: 50px;
     font-family: var(--fonte2);
 
+}
+
+.titulo-secundario{
+
+    width: 300px;
+    text-align: center;
+    
+    }
+
+#campo-senha {
+    background-color: var(--fundo-texto);
+    border: none;
+    color: var(--cor-da-letra);
+    width: 50%;
 }
