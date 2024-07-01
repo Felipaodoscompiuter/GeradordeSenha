@@ -3,10 +3,10 @@
 
 
 :root { 
-    --cor-da-letra:#006eff;
-    --cor-de-fundo: #fbff00;
+    --cor-da-letra:#000000;
+    --cor-de-fundo: #33ff00a2;
     --fundo-senha: #ff6600;
-    --fundo-texto: #a6ff00;
+    --fundo-texto: #0077ff79;
     --borda: #000000;
     --fonte:"Josefin Sans","sans-serif";
     --fonte2:"Bungee Spice","sans-serif";
@@ -30,6 +30,8 @@ body {
 
     text-align: center;
     font-size: 35px;
+    width: 100%;
+    margin: 0 auto;
     
 }
 
@@ -74,4 +76,17 @@ body {
 #campo-senha:focus {
     outline:none ;
 
+}
+
+.parametro {
+    background-color: var(--fundo-senha);
+    border: 2px solid var(--borda);
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+.parametro-titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
 }
