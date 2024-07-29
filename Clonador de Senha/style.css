@@ -90,3 +90,18 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
 }
+
+.parametro-senha {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.parametro-coluna-senha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.parametro-senha-titulo {
+    font-size: 60px;
+}
