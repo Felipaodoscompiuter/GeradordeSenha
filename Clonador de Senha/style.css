@@ -105,3 +105,18 @@ body {
 .parametro-senha-titulo {
     font-size: 60px;
 }
+
+label {
+  font-size: 35px;
+}
+
+.checkbox {
+    cursor: pointer;
+    height: 50px; 
+    width: 50px;
+    
+}
+
+button {
+    cursor: pointer;
+}
